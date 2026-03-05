@@ -8,7 +8,7 @@
 
 | 特性 | `Clash_Sample.yaml` | `backup.yaml` |
 | :--- | :--- | :--- |
-| **大小** | 8.5 KB | 12.5 KB |
+| **大小** | 8.4 KB | 12.5 KB |
 | **混合端口** | 7892 | 7892 |
 | **面板地址** | 0.0.0.0:9090 | 0.0.0.0:9090 |
 | **运行模式** | rule | rule |
@@ -19,7 +19,7 @@
 ## 📄 配置详情
 
 #### 📝 Clash_Sample.yaml
-- **路径**: `Clash_Sample.yaml` | **大小**: 8.5 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/iKeLee/Clash_Sample.yaml)
+- **路径**: `Clash_Sample.yaml` | **大小**: 8.4 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/General_Config/iKeLee/Clash_Sample.yaml)
 - **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
 <details>
 <summary>🔍 策略组 (15个)</summary>
