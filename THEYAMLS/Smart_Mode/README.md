@@ -8,13 +8,13 @@
 
 | 特性 | `mihomo_smart.yaml` | `smart.yaml` | `clash-all-smart.yaml` | `clash-all-fallback-smart.yaml` | `clash-fallback-smart-std.yaml` | `OneSmart_Lite_Config.yaml` | `OneSmart_Config.yaml` | `MihomoSmartAIO.yaml` | `MihomoSmartProMax.yaml` | `THESmart.yaml` | `MihomoSmartProPlus.yaml` | `OneSmartProMCX.yaml` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **大小** | 13.6 KB | 13.0 KB | 15.1 KB | 18.2 KB | 17.7 KB | 12.5 KB | 20.1 KB | 32.1 KB | 25.1 KB | 24.9 KB | 25.7 KB | 41.1 KB |
+| **大小** | 13.6 KB | 13.0 KB | 15.1 KB | 18.2 KB | 17.7 KB | 12.5 KB | 20.1 KB | 32.1 KB | 25.1 KB | 24.9 KB | 25.7 KB | 41.8 KB |
 | **混合端口** | 0 | 7890 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 | 7893 |
 | **面板地址** | - | - | 0.0.0.0:9090 | 0.0.0.0:9090 | 0.0.0.0:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 | 127.0.0.1:9090 | 0.0.0.0:9090 |
 | **运行模式** | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule | rule |
 | **TUN** | ✅ | ✅ | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | 🚫 | ✅ |
-| **策略组** | **21** | **28** | **38** | **57** | **36** | **16** | **31** | **69** | **41** | **40** | **41** | **32** |
-| **规则数** | **25** | **23** | **43** | **48** | **42** | **21** | **36** | **52** | **45** | **43** | **44** | **107** |
+| **策略组** | **21** | **28** | **38** | **57** | **36** | **16** | **31** | **69** | **41** | **40** | **41** | **36** |
+| **规则数** | **25** | **23** | **43** | **48** | **42** | **21** | **36** | **52** | **45** | **43** | **44** | **106** |
 
 ## 📄 配置详情
 
@@ -242,10 +242,10 @@
 ### 👤 edison
 
 #### 📝 OneSmartProMCX.yaml
-- **路径**: `edison/OneSmartProMCX.yaml` | **大小**: 41.1 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
+- **路径**: `edison/OneSmartProMCX.yaml` | **大小**: 41.8 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
 - **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (32个)</summary>
+<summary>🔍 策略组 (36个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -264,12 +264,12 @@
 | 👆 国内直连 | `select` |
 | ⚖️ 中转服务 | `load-balance` |
 | 🔧 香港-故转 | `fallback` |
+| 🔧 台湾-故转 | `fallback` |
 | 🔧 日本-故转 | `fallback` |
 | 🔧 狮城-故转 | `fallback` |
 | 🔧 美国-故转 | `fallback` |
-| 👆 香港-手选 | `select` |
-| 👆 日本-手选 | `select` |
-| ... | 还有 12 个 |
+| 🔧 低倍率-故转 | `fallback` |
+| ... | 还有 16 个 |
 </details>
 
 ---

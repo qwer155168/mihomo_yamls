@@ -7,10 +7,10 @@
 ## 📄 配置详情
 
 #### 📝 OneSmartProMCX.yaml
-- **路径**: `OneSmartProMCX.yaml` | **大小**: 41.1 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
+- **路径**: `OneSmartProMCX.yaml` | **大小**: 41.8 KB | [查看源码](https://github.com/HenryChiao/MIHOMO_YAMLS/blob/main/THEYAMLS/Smart_Mode/edison/OneSmartProMCX.yaml)
 - **模式**: rule | **TUN**: ✅ | **IPv6**: ✅
 <details>
-<summary>🔍 策略组 (32个)</summary>
+<summary>🔍 策略组 (36个)</summary>
 
 | 名称 | 类型 |
 | :--- | :--- |
@@ -29,10 +29,10 @@
 | 👆 国内直连 | `select` |
 | ⚖️ 中转服务 | `load-balance` |
 | 🔧 香港-故转 | `fallback` |
+| 🔧 台湾-故转 | `fallback` |
 | 🔧 日本-故转 | `fallback` |
 | 🔧 狮城-故转 | `fallback` |
 | 🔧 美国-故转 | `fallback` |
-| 👆 香港-手选 | `select` |
-| 👆 日本-手选 | `select` |
-| ... | 还有 12 个 |
+| 🔧 低倍率-故转 | `fallback` |
+| ... | 还有 16 个 |
 </details>
